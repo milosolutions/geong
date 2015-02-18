@@ -1,0 +1,20 @@
+{
+  "name": "milo-ng-geolocation",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node testserver.js 8010 test.html",
+    "start":"gulp compile"
+  },
+  "description": "Geolocation module for angular",
+  "dependencies": {
+    "angular": "1.3.11",
+    "bootstrap":"latest",
+
+
+    "gulp-uglify":"1.1.0",
+    "gulp":"latest",
+    "gulp-rename":"latest",
+    "open": "latest",
+    "http-server":"latest"
+  }
+}
